@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+header {
+  margin: 1%;
+}
+main {
+  background-color: #275fa0;
+  padding: 0.5% 13% 0.5%;
+  color: white;
+}
+footer {
+  background-color: white;
+  text-align: center;
+}
+p {
+  min-width: 17em;
+}
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+  text-shadow: black 0.5px 0.5px;
+}
+a:hover {
+  size: 1, 2em;
+  text-decoration: underline;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2%;
+}
+.gestion-text-video {
+  display: flex;
+}
+
+.contenu-formation {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.cursus-annee {
+  color: black;
+  background-color: white;
+  width: 29%;
+  border-radius: 0.5em;
+  padding: 1em;
+  box-shadow: 0.3em 0.1em slategrey;
+}
+h4 {
+  text-decoration: underline;
+}
+.gestion-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
